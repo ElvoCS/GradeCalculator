@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+</script>
+
+</head>
+<body>
+
+
+
+
+
+<img src="https://www.maynoothuniversity.ie/sites/all/themes/nuim_themes/nuim/logo_old_2.png" alt="HTML5 Icon" width="334" height="150">
+
+
+<h2>
+Semester 2 Exam Results
+</h2>
+
+<table id="students">
+  <tr>
+    <th id=name>First Name</th>
+    <th id=name2>Second Name</th>
+    <th>Student ID</th>
+    <th>Assignment 1  (%)</th>
+    <th>Assignment 2  (%)</th>
+    <th>Assignment 3  (%)</th>
+    <th>Assignment 4  (%)</th>
+    <th>Assignment 5  (%)</th>
+    <th >Final Grade</th>
+  </tr>
+ 
+<!--takes in user input for grades  -->
+ 
+ <tr>
+    <td>Alfreds</td>
+    <td>Anders</td>
+    <td>199098</td>
+    <td> <input type="text" size="2" placeholder="-" id="ass1" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass2" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass3" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass4" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass5" onchange="changeHandler(this)"></td>
+    <td id="fgrade">-</td>
+  </tr>
+ 
+ 
+ <tr>
+   <td>Billy</td>
+    <td>Jean</td>
+    <td>696969</td>
+    <td> <input type="text" size="2" placeholder="-" id="ass11" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass21" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass31" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass41" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass51" onchange="changeHandler(this)"></td>
+    <td id="fgrade1">-</td>
+  </tr>
+ 
+ 
+ <tr>
+    <td>Joe</td>
+    <td>Doe</td>
+    <td>123454</td>
+   <td> <input type="text" size="2" placeholder="-" id="ass12" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass22" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass32" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass42" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass52" onchange="changeHandler(this)"></td>
+    <td id="fgrade2">-</td>
+  </tr>
+ 
+ 
+ <tr>
+   <td>John</td>
+    <td>Doe</td>
+    <td>8686858</td>
+   <td> <input type="text" size="2" placeholder="-" id="ass13" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass23" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass33" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass43" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass53" onchange="changeHandler(this)"></td>
+    <td id="fgrade3">-</td>
+  </tr>
+ 
+ 
+ <tr>
+    <td>Adolf</td>
+    <td>Eichman</td>
+    <td>321332</td>
+    <td> <input type="text" size="2" placeholder="-" id="ass14" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass24" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass34" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass44" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass54" onchange="changeHandler(this)"></td>
+    <td id="fgrade4">-</td>
+  </tr>
+ 
+ 
+ 
+ <tr>
+    <td>Jake</td>
+    <td>Jakeson</td>
+    <td>134338</td>
+   <td> <input type="text" size="2" placeholder="-" id="ass15" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass25" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass35" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass45" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass55" onchange="changeHandler(this)"></td>
+    <td id="fgrade5">-</td>
+  </tr>
+ 
+ 
+ <tr>
+   <td>Bob</td>
+    <td>Hand</td>
+    <td>1900098</td>
+    <td> <input type="text" size="2" placeholder="-" id="ass16" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass26" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass36" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass46" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass56" onchange="changeHandler(this)"></td>
+    <td id="fgrade6">-</td>
+  </tr>
+ 
+ 
+ <tr>
+   <td>Vladimir</td>
+    <td>Putin</td>
+    <td>1475732</td>
+ <td> <input type="text" size="2" placeholder="-" id="ass17" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass27" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass37" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass47" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass57" onchange="changeHandler(this)"></td>
+    <td id="fgrade7">-</td>
+  </tr>
+ 
+ 
+ <tr>
+   <td>Barrack</td>
+    <td>Obamo</td>
+    <td>200008</td>
+   <td> <input type="text" size="2" placeholder="-" id="ass18" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass28" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass38" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass48" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass58" onchange="changeHandler(this)"></td>
+    <td id="fgrade8">-</td>
+  </tr>
+ 
+ 
+ <tr>
+    <td>Alfonzo</td>
+    <td>Gargonzales</td>
+    <td>1646363</td>
+    <td> <input type="text" size="2" placeholder="-" id="ass19" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass29" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass39" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass49" onchange="changeHandler(this)"></td>
+    <td> <input type="text" size="2" placeholder="-" id="ass59" onchange="changeHandler(this)"></td>
+    <td id="fgrade9">-</td>
+</tr>
+
+
+</table>
+<button id="grades" onclick=grades()>Calculate Final Grade</button>
+
+<!-- this js script changes user input to 100 a user inputs a number greater than 100
+also output 0 if a user enters a number below 0-->
+<script>
+  function changeHandler(val)
+  {
+    if (Number(val.value) > 100)
+    {
+      val.value = 100
+    }
+  else if(Number(val.value)<0){
+  val.value = 0
+  }
+  
+  }
+</script>
+
+</body>
+</html>

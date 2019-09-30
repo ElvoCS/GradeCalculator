@@ -1,0 +1,47 @@
+#students {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #students td, #students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #students td {
+   text-align: left;
+  }
+  
+  #students tr:nth-child(even) {
+    background-color: #ffffff;
+    }
+  
+  #students tr:hover {
+  background-color: #f1ff89;
+  }
+  
+  #students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #870212;
+    color: white;
+    }
+  
+  input {
+      text-align: right;
+    }
+  
+  button {
+   background-color: #870212;
+   color: white;
+   }
+  
+   img {
+   height: 100px;
+   width: 334px;
+  }
+  
+  
